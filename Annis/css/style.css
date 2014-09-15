@@ -1,0 +1,299 @@
+
+body{
+    background:CORNSILK;
+    color:black;
+    width:90%;
+    margin: 0px auto;
+}
+#container{
+    display : inline-block;
+    width:100%;
+    margin: 0px auto;
+
+}
+
+#header h1{
+
+	padding-left:100px;
+	font-size:50px;
+	
+
+
+}
+
+
+
+#header{
+	
+	height:30%;
+
+
+}
+#nav{
+	border-top:2px solid green;
+	border-bottom:2px solid green;
+	height:50px;
+
+}
+
+
+#main{
+    float:left;
+    width:75%;
+}
+
+
+#aside{
+    float:left;
+    width:25%;
+}
+
+
+
+/**classe dell'immagine delle piante**/
+
+
+.dettagli{
+
+	padding:20px;
+	float:left;
+
+
+}
+.dettagli img {
+	margin:20px;
+	margin-top:5px;
+	float:left;
+	width:100px;
+}
+
+
+
+.Specie  h1{
+	padding-left:40px;
+	font-size:46px;
+font-family: Monotype Corsiva; 	
+	
+
+
+}
+
+.Specie p{
+ margin:20px;
+font-family: Monotype Corsiva; 
+}
+
+.Specie label{
+ margin:70px;
+        font-size:20px;
+	color:black;
+	
+	text-transform: uppercase;
+
+
+}
+
+
+*select{
+	width:50px;
+
+	border:2px solid #4dff12
+
+}
+
+label {
+	color:blue;
+}
+
+
+
+
+table{
+	border:2px;
+	border-color:white;
+
+}
+
+a{
+	color:black ;
+	
+	text-decoration: none;
+	font-size: 14px;
+	text-transform: uppercase;
+
+}
+
+
+#nav li {
+	float: left;
+        
+	
+}
+
+#nav li a {
+	//display: block;
+	padding: 0 30px 0 30px;
+
+
+
+}
+
+
+
+
+#aside form{
+	//margin: 20px;
+	//margin-bottom:40px;
+	
+
+
+
+}
+#aside input[type="submit"]{
+	
+
+
+}
+
+#aside fieldset {
+	//width:200px;
+	
+
+
+}
+.menu{
+	-moz-box-shadow:inset -2px 0px 14px -5px #c1ed9c;
+	-webkit-box-shadow:inset -2px 0px 14px -5px #c1ed9c;
+	box-shadow:inset -2px 0px 14px -5px #c1ed9c;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #9dce2c), color-stop(1, #8cb82b) );
+	background:-moz-linear-gradient( center top, #9dce2c 5%, #8cb82b 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#9dce2c', endColorstr='#8cb82b');
+	background-color:#9dce2c;
+	border:3px solid #83c41a;
+	//display:inline-block;
+	color:#ffffff;
+	font-family:Verdana;
+	font-size:16px;
+	font-weight:bold;
+	padding:12px 50px;
+	text-decoration:none;
+	text-shadow:14px 4px 0px #689324;
+        
+}.menu:hover {
+	cursor: pointer;
+        background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #8cb82b), color-stop(1, #9dce2c) );
+	background:-moz-linear-gradient( center top, #8cb82b 5%, #9dce2c 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#8cb82b', endColorstr='#9dce2c');
+	background-color:#8cb82b;
+}.menu:active {
+	position:relative;
+	top:1px;
+}
+
+
+input[type="submit"]{
+	-moz-box-shadow:inset 1px 0px 15px 6px #32d132;
+	-webkit-box-shadow:inset 1px 0px 15px 6px #32d132;
+	box-shadow:inset 1px 0px 15px 6px #32d132;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #4dff12), color-stop(1, #d8d9cc) );
+	background:-moz-linear-gradient( center top, #4dff12 5%, #d8d9cc 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#4dff12', endColorstr='#d8d9cc');
+	background-color:#4dff12;
+	-moz-border-radius:29px;
+	-webkit-border-radius:29px;
+	border-radius:29px;
+	display:inline-block;
+	color:#120512;
+	font-family:Verdana;
+	font-size:10px;
+	font-weight:bold;
+	padding:8px 16px;
+	text-decoration:none;
+	text-shadow:1px 1px 0px #f0f5f2;
+}
+
+input[type="submit"]:hover {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #d8d9cc), color-stop(1, #4dff12) );
+	background:-moz-linear-gradient( center top, #d8d9cc 5%, #4dff12 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#d8d9cc', endColorstr='#4dff12');
+	background-color:#d8d9cc;
+}
+
+input[name="logout"]{
+   
+    
+    
+}
+
+
+fieldset{
+	margin:20px;
+	border-color:green;
+	
+
+
+
+}
+
+
+tr{
+	border: 1px solid
+
+}
+td,th {
+
+	width: 135px;
+	height: 60px;
+	font-size: 14px;
+}
+
+/* Codice per il men� principale */
+
+
+
+	
+
+
+/* Codice per i sottomen� */
+
+
+#nav ul li:hover ul { display: block; }
+ul {
+
+	list-style: none;
+}	
+
+ul li ul {
+	list-style: none;
+	position: absolute;
+
+	
+	display: none;
+
+}
+
+
+
+ol {
+margin-left: 40px;
+}
+
+
+ul li a.extend {
+	//display: block;
+	padding: 0 30px 0 30px;
+
+	text-decoration: none;
+	font-size: 12px;
+	text-transform: uppercase;
+	border-right: 1px solid #fff;
+}
+
+li fieldset {
+ background:ALICEBLUE;
+
+}
+
+fieldset input {
+margin:5px;
+}
