@@ -168,7 +168,9 @@ switch ($mansione){
             
         break;
     case "giardiniere" :
-        GiardiniereProfilo();
+        if (($menu=="profilo")||(($menu=="")&&($elenco=="")&&($job==""))){
+                         GiardiniereProfilo(); 
+        }
         break;
     default ://nessun account
         $mansione="cliente"; 
